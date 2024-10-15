@@ -40,5 +40,10 @@ The processed data or labels can then be displayed to the user or stored for fur
 Summary:
 This architecture efficiently handles image recognition tasks by using a combination of AWS services. It allows users to upload images, processes them in the cloud, and provides results using machine learning through Amazon Rekognition. The use of IAM ensures secure interactions between the different services.
 
+Input image given is :
+
+![myimage](https://github.com/user-attachments/assets/b617b739-3790-4c0b-8c10-f7985298af9b)
+
+
 
 
