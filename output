@@ -1,0 +1,191 @@
+Image input :
+
+Label: Person
+Confidence: 99.99736785888672
+Instances:
+  Bounding box
+    Top: 0.19512949883937836
+    Left: 0.30175724625587463
+    Width: 0.36735862493515015
+    Height: 0.7204923629760742
+  Confidence: 97.54676055908203
+
+  Bounding box
+    Top: 0.1891075074672699
+    Left: 0.7946291565895081
+    Width: 0.20483197271823883
+    Height: 0.38917410373687744
+  Confidence: 85.76885223388672
+
+Parents:
+----------
+
+Label: Standing
+Confidence: 99.99736785888672
+Instances:
+Parents:
+   Person
+----------
+
+Label: Clothing
+Confidence: 99.97716522216797
+Instances:
+Parents:
+----------
+
+Label: Pants
+Confidence: 99.97716522216797
+Instances:
+Parents:
+   Clothing
+----------
+
+Label: Pedestrian
+Confidence: 99.8100357055664
+Instances:
+Parents:
+   Person
+----------
+
+Label: Walking
+Confidence: 98.40990447998047
+Instances:
+Parents:
+   Person
+----------
+
+Label: Boy
+Confidence: 97.54676055908203
+Instances:
+  Bounding box
+    Top: 0.19512949883937836
+    Left: 0.30175724625587463
+    Width: 0.36735862493515015
+    Height: 0.7204923629760742
+  Confidence: 97.54676055908203
+
+  Bounding box
+    Top: 0.1891075074672699
+    Left: 0.7946291565895081
+    Width: 0.20483197271823883
+    Height: 0.38917410373687744
+  Confidence: 85.76885223388672
+
+Parents:
+   Male
+   Person
+----------
+
+Label: Male
+Confidence: 97.54676055908203
+Instances:
+  Bounding box
+    Top: 0.19512949883937836
+    Left: 0.30175724625587463
+    Width: 0.36735862493515015
+    Height: 0.7204923629760742
+  Confidence: 97.54676055908203
+
+  Bounding box
+    Top: 0.1891075074672699
+    Left: 0.7946291565895081
+    Width: 0.20483197271823883
+    Height: 0.38917410373687744
+  Confidence: 85.76885223388672
+
+Parents:
+   Person
+----------
+
+Label: Teen
+Confidence: 97.54676055908203
+Instances:
+  Bounding box
+    Top: 0.19512949883937836
+    Left: 0.30175724625587463
+    Width: 0.36735862493515015
+    Height: 0.7204923629760742
+  Confidence: 97.54676055908203
+
+  Bounding box
+    Top: 0.1891075074672699
+    Left: 0.7946291565895081
+    Width: 0.20483197271823883
+    Height: 0.38917410373687744
+  Confidence: 85.76885223388672
+
+Parents:
+   Person
+----------
+
+Label: Footwear
+Confidence: 91.89855194091797
+Instances:
+Parents:
+   Clothing
+----------
+
+Label: Shoe
+Confidence: 91.89855194091797
+Instances:
+Parents:
+   Clothing
+   Footwear
+----------
+
+Label: Sneaker
+Confidence: 91.89855194091797
+Instances:
+Parents:
+   Clothing
+   Footwear
+   Shoe
+----------
+
+Label: Jeans
+Confidence: 57.883113861083984
+Instances:
+Parents:
+   Clothing
+   Pants
+----------
+
+Label: Sleeve
+Confidence: 57.46755599975586
+Instances:
+Parents:
+   Clothing
+----------
+
+Label: Road
+Confidence: 56.55873489379883
+Instances:
+Parents:
+----------
+
+Label: City
+Confidence: 55.56778335571289
+Instances:
+Parents:
+----------
+
+Label: Street
+Confidence: 55.56778335571289
+Instances:
+Parents:
+   City
+   Road
+   Urban
+----------
+
+Label: Urban
+Confidence: 55.56778335571289
+Instances:
+Parents:
+----------
+
+Label: T-Shirt
+Confidence: 55.430625915527344
+Instances:
+Parents:
+   Clothing
