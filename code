@@ -3,20 +3,21 @@ import boto3
 
 def detect_labels(photo, bucket):
 
-    client=boto3.client('rekognition')
+    client=boto3.client('rekognition') #model to access for the rekognition model .
 
     response = client.detect_labels(
     Image={
         'S3Object': {
-            'Bucket': 'image-detection4',
-            'Name': 'WhatsApp Image 2024-05-04 at 2.39.00 PM.jpeg'
+            'Bucket': 'image-detection4', #access bucket in the s3 
+            'Name': 'WhatsApp Image 2024-05-04 at 2.39.00 PM.jpeg' #add object as image in the s3 to access it in the cloud9 to 
+
         }
     }
 )
 
     
 
-    print('Detected labels for ' + photo) 
+    print('Detected labels for ' + photo) #detect the labels in the image produced in the code 
     print()   
     for label in response['Labels']:
         print ("Label: " + label['Name'])
@@ -36,7 +37,7 @@ def detect_labels(photo, bucket):
             print ("   " + parent['Name'])
         print ("----------")
         print ()
-    return len(response['Labels'])
+    return len(response['Labels']) #It return the response model in the data as labels to predict the scenece in the image 
 
 
 def main():
